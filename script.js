@@ -3,6 +3,7 @@ const title = document.querySelector('#title');
 const askDiv = document.querySelector('.ask-div');
 const yesBtn = document.querySelector('#yes-btn');
 const noBtn = document.querySelector('#no-btn');
+const footer = document.querySelector('footer');
 const phrases = [
     'Are you sure?',
     'Are you really sure?',
@@ -32,6 +33,7 @@ yesBtn.addEventListener('click', () => {
     div.classList.add('show');
     askDiv.classList.add('hide');
     title.textContent = 'Yay! I knew you would say yes!';
+    footer.classList.add('show');
 });
 
 noBtn.addEventListener('click', () => {
