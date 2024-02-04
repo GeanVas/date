@@ -15,14 +15,14 @@ const phrases = [
     'I\'ll be very sad',
     'Ok, I\'ll stop asking...',
     '...no I won\'t',
+    'Won\'t you reconsider?',
+    'You may regret it',
     'I\'ll buy you a donut and an ice cream',
+    'I\'ll be very very sad',
     'Y si lo hago en español?',
     'Dime que sí',
     'O italiano?',
     'Dimmi di sì',
-    'I\'ll be very very sad',
-    'Won\'t you reconsider?',
-    'You may regret it',
 ]
 let saidYes = false;
 let noCount = 0;
